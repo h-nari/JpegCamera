@@ -1,0 +1,19 @@
+#define USE_OTA 	1
+#define USE_STATIC_IP 	1
+#define USE_TFT 	1
+
+#define WIFI_SSID 	"your_ssid"
+#define	WIFI_PASSWORD	"your_wifi_passowrd"
+
+#ifdef USE_OTA
+#define OTA_HOSTNAME 	"ota_hostname"
+#define OTA_PASSWORD 	"ota_passowrd"
+#define OTA_PORT	8266
+#endif
+
+#ifdef USE_STATIC_IP
+#define MY_IP_ADDR	192,168,0,204
+#define MY_GATEWAY	192,168,0,1
+#define MY_SUBNET	255,255,255,0
+#endif
+
